@@ -47,7 +47,7 @@ public class GUI implements ActionListener {
         }
         // gives time for scrapper to create file
         try {
-            Thread.sleep(5000);
+            Thread.sleep(1500);
         } catch (InterruptedException ex) {
             throw new RuntimeException(ex);
         }
